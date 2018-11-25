@@ -28,6 +28,7 @@ git checkout -b name_of_your_branch
 ```
 then you can work
 ```
+git pull . master
 git add *
 git commit -a
 git checkout master
