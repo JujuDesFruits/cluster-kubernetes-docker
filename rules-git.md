@@ -28,13 +28,14 @@ git checkout -b name_of_your_branch
 ```
 then you can work
 ```
-git pull
+git add *
 git commit -a
 git checkout master
 git merge name_of_your_branch
+git push
 ```
 
 * publish a version of the work
 ```
-git tag name_of_your_tag
+git tag name_of_your_version
 ```
