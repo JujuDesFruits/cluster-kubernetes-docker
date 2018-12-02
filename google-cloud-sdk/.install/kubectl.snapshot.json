@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "data": {
+        "contents_checksum": "47b50c1e2a123d28c8915ca6d010b9b6b4f6298be7ae4455a1f60cb6a1837730", 
+        "source": "", 
+        "type": "tar"
+      }, 
+      "dependencies": [
+        "kubectl-darwin-x86", 
+        "kubectl-darwin-x86_64", 
+        "kubectl-linux-x86", 
+        "kubectl-linux-x86_64", 
+        "kubectl-windows-x86", 
+        "kubectl-windows-x86_64"
+      ], 
+      "details": {
+        "description": "Provides kubectl executable.", 
+        "display_name": "kubectl"
+      }, 
+      "id": "kubectl", 
+      "is_configuration": false, 
+      "is_hidden": false, 
+      "is_required": false, 
+      "platform": {
+        "architectures": [
+          "x86", 
+          "x86_64"
+        ], 
+        "operating_systems": [
+          "LINUX", 
+          "MACOSX", 
+          "WINDOWS"
+        ]
+      }, 
+      "version": {
+        "build_number": 20180917211357, 
+        "version_string": "2018.09.17"
+      }
+    }
+  ], 
+  "revision": 20181116181537, 
+  "schema_version": {
+    "no_update": false, 
+    "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz", 
+    "version": 3
+  }, 
+  "version": "226.0.0"
+}
